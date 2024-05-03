@@ -1,8 +1,25 @@
-# React + Vite
+# Plutus App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+_**Note:** This project is a work in progress_.
 
-Currently, two official plugins are available:
+## Table Of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [About](#about)
+- [Description](#description)
+- [Stack](#stack)
+
+## About
+
+A spartan budget web application.
+
+The name 'Plutus' derives from 'Plutus', the Ancient Greek god of wealth.
+
+## Description
+
+The objective is to learn fundamentals React features especially components and Hooks.
+
+## Stack
+
+- React 18
+- Vite 5
+- Bootstrap 5
