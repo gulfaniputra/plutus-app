@@ -1,8 +1,12 @@
-import { useState } from "react";
-import "./App.css";
+import './App.css';
+import { Container } from 'react-bootstrap';
 
 function App() {
-  return "React";
+  return (
+    <Container>
+      <h1>React</h1>
+    </Container>
+  );
 }
 
 export default App;
