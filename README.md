@@ -20,6 +20,7 @@ The objective is to learn fundamentals React features especially components and 
 
 ## Stack
 
-- React 18
+- React 18:
+  - `uuid` library
 - Vite 5
 - Bootstrap 5
