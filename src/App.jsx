@@ -37,7 +37,7 @@ export default function App() {
             alignItems: 'flex-start',
           }}
         >
-          {budgets.map((budget) => {
+          {budgets.map(budget => {
             const amount = getBudgetExpenses(budget.id).reduce(
               (total, expense) => total + expense.amount,
               0
@@ -61,6 +61,7 @@ export default function App() {
       />
       <AddExpenseModal
         show={showAddExpenseModal}
+        defaultBudgetId={addExpenseModalBudgetId}
         handleClose={() => setShowAddExpenseModal(false)}
       />
     </>
