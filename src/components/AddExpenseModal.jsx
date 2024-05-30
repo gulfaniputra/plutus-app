@@ -16,7 +16,7 @@ export default function AddExpenseModal({
     e.preventDefault();
 
     addExpense({
-      descriptionRef: descriptionRef.current.value,
+      description: descriptionRef.current.value,
       amount: parseFloat(amountRef.current.value),
       budgetId: budgetIdRef.current.value,
     });
@@ -49,7 +49,7 @@ export default function AddExpenseModal({
             <Form.Label>Budget</Form.Label>
             <Form.Select defaultValue={defaultBudgetId} ref={budgetIdRef}>
               <option id={UNCATEGORIZED_BUDGET_ID}>Uncategorized</option>
-              {budgets.map((budget) => (
+              {budgets.map(budget => (
                 <option key={budget.id} value={budget.id}>
                   {budget.name}
                 </option>
