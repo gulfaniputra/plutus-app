@@ -6,6 +6,7 @@ _**Note:** This project is a work in progress_.
 
 - [About](#about)
 - [Description](#description)
+- [Features](#features)
 - [Stack](#stack)
 
 ## About
@@ -17,6 +18,10 @@ The name 'Plutus' derives from 'Plutus', the Ancient Greek god of wealth.
 ## Description
 
 The objective is to learn fundamentals React features especially components and Hooks.
+
+## Features
+
+![The screenshot of the app's features.](public/features.png)
 
 ## Stack
 
