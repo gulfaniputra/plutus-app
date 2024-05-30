@@ -1,12 +1,11 @@
 # Plutus App
 
-_**Note:** This project is a work in progress_.
-
 ## Table Of Contents
 
 - [About](#about)
 - [Description](#description)
 - [Features](#features)
+- [Demo](#demo)
 - [Stack](#stack)
 
 ## About
@@ -22,6 +21,10 @@ The objective is to learn fundamentals React features especially components and 
 ## Features
 
 ![The screenshot of the app's features.](public/features.png)
+
+## Demo
+
+https://plutusbudget.vercel.app/
 
 ## Stack
 
